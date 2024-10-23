@@ -28,12 +28,7 @@ Examples of unacceptable behavior include:
 
 ## Complaints and Enforcement
 
-If you feel that a member of the community has violated this Code of Conduct in their actions or behaviors, you may reach
-out to the community leaders at support@aspirepress.org. If you feel that the community leaders have vioalted this Code
-of Conduct, please connect with 2 or 3 additional community members, share your concerns, and as a group, please reach
-out to support@aspirepress.org. If you do not recieve satisfation within three days, you may request a hearing of the full
-community. The community of contributors will be obligated to take a vote on the complaint and determine, if appropriate,
-a resolution.
+If you feel that a member of the community has violated this Code of Conduct in their actions or behaviors, you may reach out to the community leaders at support@aspirepress.org. If you feel that the community leaders have vioalted this Code of Conduct, please connect with 2 or 3 additional community members, share your concerns, and as a group, please reach out to support@aspirepress.org. If you do not recieve satisfation within three days, you may request a hearing of the full community. The community of contributors will be obligated to take a vote on the complaint and determine, if appropriate, a resolution.
 
 ## Attribution
 
