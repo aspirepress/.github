@@ -24,7 +24,7 @@ we apply the following standards:
 * We use the [Laminas Coding Standard](https://docs.laminas.dev/laminas-coding-standard/) with certain rules turned off.
 * We require tests to be written for code that you commit, and we encourage you to run the tests prior to opening a pull request.
 * We require that the code you submit pass PHPStan Level 6 or higher.
-* Please document changes you make to the CHANGELOG inside each project, so we know what changes were made, and use that information in your Pull REquest.
+* Please document changes you make to the CHANGELOG inside each project, so we know what changes were made, and use that information in your Pull Request.
 * Please be sure to document the WHY of your request, not just the WHAT. For example, "Changed class to be more readable" is not a good commit message. "Changed class to be more readable" followed on another line by "The Foo class was hard to read due to some complex logic. I simplified the logic by implementing a bubble sort algorithm, which reduced the complexity and improved the readability" is a much clearer message.
 * Please try to keep the first line of your commit message to 80 characters or less, and use subsequent lines to communicate additional information.
 * Pull requests should be 10 or fewer files and +/- 500 lines of code. If yours exceeds this, we will want you to explain why, and we may ask you to break up the request into logical parts.
@@ -45,7 +45,7 @@ accepting contributions.
 
 ## Branching and Workflow
 
-We use a centralized approach that leaves `main` as the current stable dev version and has version branches for bug and feature fixes in the specific version. Since we use [Semantic Versioning](https://semver.org/) we need to provide ways that we can addequately maintain and/or add features to existing versions, without breaking the backwards compatibility of those versions.
+We use a centralized approach that leaves `main` as the current stable dev version and has version branches for bug and feature fixes in the specific version. Since we use [Semantic Versioning](https://semver.org/) we need to provide ways that we can adequately maintain and/or add features to existing versions, without breaking the backwards compatibility of those versions.
 
 * The `main` branch is the source of truth for the bleeding edge of the project. It should be used for applying all new features and bugfixes that affect new and existing features.
 * The version branch (e.g. `1.x`) is used for bugfixes specific to features in that version. 
@@ -61,7 +61,7 @@ We use a centralized approach that leaves `main` as the current stable dev versi
 
 ## Licenses and Copyrights
 
-If you contribute to this project, you grant an exclusive,royalty-free, global, irrevocable license to AspirePress and any members of AspirePress to use, relicense, redistribute, copy, modify, change or otherwise utiize any source code you contribute. Furthermore, contribution of source code is not a guarantee that you will be granted rights to use the project for your own purposes. By contributing you acknowledge that the code you contribute becomes licensed by AspirePress, and you may not may not revoke, rescind, or modify that license at any time for any reason.
+If you contribute to this project, you grant an exclusive,royalty-free, global, irrevocable license to AspirePress and any members of AspirePress to use, relicense, redistribute, copy, modify, change or otherwise utilize any source code you contribute. Furthermore, contribution of source code is not a guarantee that you will be granted rights to use the project for your own purposes. By contributing you acknowledge that the code you contribute becomes licensed by AspirePress, and you may not may not revoke, rescind, or modify that license at any time for any reason.
 
 You also agree to indemnify and hold harmless AspirePress and any members of AspirePress from any harm, including litigation or copyright enforcement, for code you commit that you do not own. **DO NOT COMMIT CODE YOU DO NOT OWN OR THAT IS COPYRIGHTED BY SOMEONE ELSE!**
 

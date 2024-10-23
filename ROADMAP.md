@@ -18,7 +18,7 @@ The following terms apply through this document:
 
 ## Basic functions of mirrors/repositories
 
-A mirror or repository (in this section referred to as a "resository") has the following responsibilities:
+A mirror or repository (in this section referred to as a "repository") has the following responsibilities:
 
 * Serve requests from constituents (WordPress instances) that request information about available packages or available package updates.
 * Provide endpoints for the publication of packages from authors that have authenticated with that repository.
@@ -41,7 +41,7 @@ Package publishers should, with permission of the repository, publish certain pa
 
 The specifics of the API are to be determined, but each package maintainer should sign and authenticate their information for the package, which in turn is validated by the repository as authentic.
 
-Upon reciept of the new package or package version, the repository **MUST** update its internal records to distribute that version AND call other federated repositories through the associated API endpoints to inform them of the new version.
+Upon receipt of the new package or package version, the repository **MUST** update its internal records to distribute that version AND call other federated repositories through the associated API endpoints to inform them of the new version.
 
 ## Distributing metadata
 
@@ -51,11 +51,11 @@ The specification provides that the repository should try a minimum of three tim
 
 If the notification is unsuccessful, the notification process will fail for that repository and inform the owner. Repositories offline for more than twenty-four hours are assumed to have defederated and are dropped by the cluster.
 
-## Recieving metadata
+## Receiving metadata
 
 Upon notification from a peer that a new version is available, and that peer is canonical for the resource, a repository **must** update its internal records to provide that version of the package within a reasonable timeframe.
 
-There are exceptions to this rule to permit repositories to limit or prohibit distribution of certain packages or namespaces. However if these restrictions are not defined, a repository must be preapred to offer any and all packages published by peers.
+There are exceptions to this rule to permit repositories to limit or prohibit distribution of certain packages or namespaces. However if these restrictions are not defined, a repository must be prepared to offer any and all packages published by peers.
 
 Upon receipt of the metadata the repository has two choices:
 
