@@ -78,7 +78,7 @@ accepting contributions.
 
 We use a centralized approach that leaves `main` as the current stable dev version and has version branches for bug and feature
 fixes in the specific version. Since we use [Semantic Versioning](https://semver.org/) we need to provide ways that
-we can addequately maintain and/or add features to existing versions, without breaking the backwards compatibility of
+we can adequately maintain and/or add features to existing versions, without breaking the backwards compatibility of
 those versions.
 
 * The `main` branch is the source of truth for the bleeding edge of the project. It should be used for applying all new
@@ -110,10 +110,10 @@ those versions.
 ## Licenses and Copyrights
 
 If you contribute to this project, you grant an exclusive,royalty-free, global, irrevocable license to AspirePress and
-any members of AspirePress to use, relicense, redistribute, copy, modify, change or otherwise utiize any source code you
+any members of AspirePress to use, relicense, redistribute, copy, modify, change or otherwise utilize any source code you
 contribute. Furthermore, contribution of source code is not a guarantee that you will be granted rights to use the
 project for your own purposes. By contributing you acknowledge that the code you contribute becomes licensed by
-AspirePress, and you may not may not revoke, rescind, or modify that license at any time for any reason.
+AspirePress, and you may not revoke, rescind, or modify that license at any time for any reason.
 
 You also agree to indemnify and hold harmless AspirePress and any members of AspirePress from any harm, including
 litigation or copyright enforcement, for code you commit that you do not own. **DO NOT COMMIT CODE YOU DO NOT OWN OR
