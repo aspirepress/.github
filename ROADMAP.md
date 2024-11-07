@@ -21,7 +21,7 @@ The following terms apply through this document:
 
 ## Basic functions of mirrors/repositories
 
-A mirror or repository (in this section referred to as a "resository") has the following responsibilities:
+A mirror or repository (in this section referred to as a "repository") has the following responsibilities:
 
 - Serve requests from constituents (WordPress instances) that request information about available packages or available
   package updates.
@@ -51,7 +51,7 @@ Package publishers should, with permission of the repository, publish certain pa
 The specifics of the API are to be determined, but each package maintainer should sign and authenticate their
 information for the package, which in turn is validated by the repository as authentic.
 
-Upon reciept of the new package or package version, the repository **MUST** update its internal records to distribute
+Upon receipt of the new package or package version, the repository **MUST** update its internal records to distribute
 that version AND call other federated repositories through the associated API endpoints to inform them of the new
 version.
 
@@ -67,13 +67,13 @@ queueing and jobs.
 If the notification is unsuccessful, the notification process will fail for that repository and inform the owner.
 Repositories offline for more than twenty-four hours are assumed to have defederated and are dropped by the cluster.
 
-## Recieving metadata
+## Receiving metadata
 
 Upon notification from a peer that a new version is available, and that peer is canonical for the resource, a repository
 **must** update its internal records to provide that version of the package within a reasonable timeframe.
 
 There are exceptions to this rule to permit repositories to limit or prohibit distribution of certain packages or
-namespaces. However if these restrictions are not defined, a repository must be preapred to offer any and all packages
+namespaces. However if these restrictions are not defined, a repository must be prepared to offer any and all packages
 published by peers.
 
 Upon receipt of the metadata the repository has two choices:
@@ -100,10 +100,10 @@ For repositories that opt for full distribution, they **MUST** comply with the f
 
 By default, the network is assumed open like the internet. However, this creates some unique security risks.
 
-First, malicious actors could theoretically attempt to publish themselves as sources of packages that are malciious,
+First, malicious actors could theoretically attempt to publish themselves as sources of packages that are malicious,
 even if they are not canonical.
 
-Additionally, malicious peers could attempt to distribute packages that are intentionlly malicious or represent
+Additionally, malicious peers could attempt to distribute packages that are intentionally malicious or represent
 similarity to existing packages to create confusion and permit attack.
 
 To prevent against this, the following rules apply:
@@ -114,7 +114,7 @@ To prevent against this, the following rules apply:
 - Repositories may accept or reject other repositories from which they permit or refuse traffic. Under circumstances
   where a repository is attempting a DDOS attack against the other repositories (e.g. publishing packages that are
   illegitimate for the purposes of flooding other repositories), a repository owner has the right to outright block
-  acess to their infraustructure by the offending repository.
+  access to their infrastructure by the offending repository.
 - A repository may specify what level it accepts from specific repositories. For example, a repository may be accepted
   as a non-canonical source, but refuse to accept canonical packages for security reasons.
 - A repository may choose not to distribute ANY packages or assets from a particular repository if it so desires.
@@ -122,10 +122,10 @@ To prevent against this, the following rules apply:
   data or federation from a new repository.
 - Repositories may implement review rules and require other repositories to adhere to them for listing of packages in
   their repository.
-- Repositories may also implement their own rules and/or review package update information for adherance to their
+- Repositories may also implement their own rules and/or review package update information for adherence to their
   rulesets.
-- Repositories will always prefer the canonical source over non-canoncical sources, and compare checksums of
-  non-canonical sources to ensure package secuirty and authenticity.
+- Repositories will always prefer the canonical source over non-canonical sources, and compare checksums of
+  non-canonical sources to ensure package security and authenticity.
 
 ## Shared information
 
