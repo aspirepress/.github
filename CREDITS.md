@@ -1,8 +1,6 @@
 # Credits
 
-AspirePress is made by people. Those people are responsible for the success of the project and the overall direction
-of the product. AspirePress is an open source project and is owned by the community as a whole, and we are proud to give
-credit where credit is due.
+AspirePress is made by people. Those people are responsible for the success of the project and the overall direction of the product. AspirePress is an open source project and is owned by the community as a whole, and we are proud to give credit where credit is due.
 
 ## AspireCloud
 
