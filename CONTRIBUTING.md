@@ -73,7 +73,7 @@ Legal language can be tricky. Here is what our legal terms are, in plain English
 * We only allow copyleft (GPL and similar) licensed libraries to be used in our copyleft-licensed projects. We don't allow copyleft licenses in non-copyleft projects.
 * We may choose a different license for any project at any time, without asking. But we won't make any open source project into a closed-source one.
 * Some users may ask us for a special license that doesn't conflict with the original license but adds new terms. This "dual licensing" is permissible.
-* If we dual license something, we won't restrict others from using the software the way it was originally inteded to be used.
+* If we dual license something, we won't restrict others from using the software the way it was originally intended to be used.
 * You promise us that you're not breaking any laws, contracts or agreements that you have regarding code you contribute.
 
 ### Legal Terms
