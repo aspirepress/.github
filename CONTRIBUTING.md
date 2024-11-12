@@ -18,8 +18,7 @@ For WordPress Plugins and Projects, we ask that you follow these standards:
 
 ### For Non-WordPress Libraries & Components
 
-For non-WordPress repositories (e.g. libraries and components that are tangential but do not call into WordPress core),
-we apply the following standards:
+For non-WordPress repositories (e.g. libraries and components that are tangential but do not call into WordPress core), we apply the following standards:
 
 - We use the [Laminas Coding Standard](https://docs.laminas.dev/laminas-coding-standard/) with certain rules turned off.
 - We require tests to be written for code that you commit, and we encourage you to run the tests prior to opening a pull request.
@@ -33,8 +32,7 @@ we apply the following standards:
 
 ## General Rules For Contributing
 
-We welcome contributions. We encourage anyone who wants to contribute to do so. These rules outline our policies in
-accepting contributions.
+We welcome contributions. We encourage anyone who wants to contribute to do so. These rules outline our policies in accepting contributions.
 
 1. Always fork the repository to your own GitHub profile, and do your work in branches there. Do not push branches directly to the AspirePress repository, even if you have access to do so. Note that branches related to releases is perfectly acceptable
 2. To contribute your patch, please open a Pull Request, even if you have access to push to `main`. Since you're likely doing your work in your own fork, this makes a pull request more essential.
