@@ -20,7 +20,7 @@ For WordPress Plugins and Projects, we ask that you follow these standards:
 
 For non-WordPress repositories (e.g. libraries and components that are tangential but do not call into WordPress core), we apply the following standards:
 
-- We use the [Laminas Coding Standard](https://docs.laminas.dev/laminas-coding-standard/) with certain rules turned off.
+- We use a variant of the [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html), with minor variations (for instance, yoda conditions are not used)
 - We require tests to be written for code that you commit, and we encourage you to run the tests prior to opening a pull request.
 - We require that the code you submit pass PHPStan Level 6 or higher.
 - Please document changes you make to the CHANGELOG inside each project, so we know what changes were made, and use that information in your Pull Request.
