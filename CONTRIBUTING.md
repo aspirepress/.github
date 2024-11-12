@@ -69,8 +69,8 @@ Legal language can be tricky. Here is what our legal terms are, in plain English
 
 * When you contribute code, you still own the code, but we are free to use it forever.
 * Contributing code to the project does not automatically mean that the end product will be suitable for a particular purpose you may have.
-* If your contribution causes us harm, and you could have prevented it, you are responsible for the harm.
-* We only allow copyleft (GPL) licensed libraries to be used in our copyleft-licensed projects. We don't allow copyleft licenses in non-copyleft projects.
+* If your contribution causes us harm, and you could have prevented it, you are responsible for the harm. An example would be including code you know to be owned by someone else.
+* We only allow copyleft (GPL and similar) licensed libraries to be used in our copyleft-licensed projects. We don't allow copyleft licenses in non-copyleft projects.
 * We may choose a different license for any project at any time, without asking. But we won't make any open source project into a closed-source one.
 * Some users may ask us for a special license that doesn't conflict with the original license but adds new terms. This "dual licensing" is permissible.
 * If we dual license something, we won't restrict others from using the software the way it was originally inteded to be used.
