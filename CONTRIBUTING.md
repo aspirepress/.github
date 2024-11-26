@@ -63,13 +63,30 @@ We use a centralized approach that leaves `main` as the current development vers
 
 ## Licenses and Copyrights
 
+### Plain English
+
+Legal language can be tricky. Here is what our legal terms are, in plain English. Anywhere that these plain English terms conflict with the legal terms, the legal terms take precedence.
+
+* When you contribute code, you still own the code, but we are free to use it forever.
+* Contributing code to the project does not automatically mean that the end product will be suitable for a particular purpose you may have.
+* If your contribution causes us harm, and you could have prevented it, you are responsible for the harm. An example would be including code you know to be owned by someone else.
+* We only allow copyleft (GPL and similar) licensed libraries to be used in our copyleft-licensed projects. We don't allow copyleft licenses in non-copyleft projects.
+* We may choose a different license for any project at any time, without asking. But we won't make any open source project into a closed-source one.
+* Some users may ask us for a special license that doesn't conflict with the original license but adds new terms. This "dual licensing" is permissible.
+* If we dual license something, we won't restrict others from using the software the way it was originally intended to be used.
+* You promise us that you're not breaking any laws, contracts or agreements that you have regarding code you contribute.
+
+### Legal Terms
+
+These terms are legally binding on contributors and AspirePress alike. By contributing to AspirePress, you agree to these terms.
+
 If you contribute to this project, you grant an exclusive, royalty-free, global, irrevocable license to AspirePress and any members of AspirePress to use, relicense, redistribute, copy, modify, change or otherwise utilize any source code you contribute. Furthermore, contribution of source code is not a guarantee that you will be granted rights to use the project for your own purposes. By contributing you acknowledge that the code you contribute becomes licensed by AspirePress, and you may not revoke, rescind, or modify that license at any time for any reason.
 
 You also agree to indemnify and hold harmless AspirePress and any members of AspirePress from any harm, including litigation or copyright enforcement, for code you commit that you do not own. **DO NOT COMMIT CODE YOU DO NOT OWN OR THAT IS COPYRIGHTED BY SOMEONE ELSE!**
 
-For libraries that are not CopyLeft (e.g. GPL, LGPL, AGPL, etc.) AspirePress permits all open-source licenses to be used, except for CopyLeft licenses. You may contribute open source code that does not implement these licenses. If a particular library or repository is already licensed under a CopyLeft license, you may use code from these license types.
+When contributing code or libraries to AspirePress, you agree that you will not contribute a CopyLeft-licensed component to a non-CopyLeft project (e.g, no GPL libraries in MIT-licensed projects). If we are already licensing a project under a CopyLeft license, this rule does not apply.
 
-Your license of your contributions to AspirePress relieves us of the right to relicense any project or repository under new terms, starting with the next major version. However, we voluntarily limit our relicensing right to relicensing projects only insofar as the new license is no more restrictive than the previous license. We reserve the right to convert any non-CopyLeft licensed code into a CopyLeft-licensed project, though we will use this right sparingly. You agree that your permission is not needed for relicensing of a project that you contributed to.
+Your license of your contributions to AspirePress grants us the right to relicense any project or repository under new terms, starting with the next major version. However, we voluntarily limit our relicensing rights to relicensing projects only insofar as the new license is no more restrictive than the previous license. We reserve the right to convert any non-CopyLeft licensed code into a CopyLeft-licensed project, though we will use this right sparingly. You agree that your permission is not needed for relicensing of a project that you contributed to.
 
 Note that we may "dual license" any project at any time. A "dual license" may require certain users to use a particular license based on conditions within that license; all others may use the original or new (but similarly restrictive) license. The "dual license" model does not in any way constitute a reduction in rights or freedoms granted users, and any user that wishes to remain on an older version under the original license may do so. We will not retroactively change license terms.
 
