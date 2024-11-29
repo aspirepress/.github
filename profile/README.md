@@ -7,7 +7,7 @@
 
 ### The Problem
 
-In the fall of 2024, the WordPress community has come to the realization that every WordPress-powered website has a single point of failure. That single point of failure creates a risk for security, reliability, and credibility for the entire ecosystem. Further, that single point of failure could be leveraged to distribute malware or damage the community as a whole.
+In the fall of 2024, the WordPress community came to the realization that every WordPress-powered website has a single point of failure. That single point of failure creates a risk for security, reliability, and credibility for the entire ecosystem. Further, that single point of failure could be leveraged to distribute malware or damage the community as a whole.
 
 ### The Vision
 
