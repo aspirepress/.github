@@ -1,3 +1,5 @@
 # Security
 
-If you observe a security vulnerability in one of our packages or libraries, please responsibly report it to support@aspirepress.org. We will respond to notify you that we received your query, and we will credit you in the fix we provide. We ask for 30 days to fix any vulnerability before you disclose it.
+If you observe a security vulnerability in any of our projects, please responsibly report it by opening a new security advisory within the project repository. The project lead or manager will respond to discuss the issue with you, and AspirePress will credit you in the fix shoild one be published.
+
+We ask for 30 calendar days to fix any serious vulnerability before disclosure to AspirePress. AspirePress asks for any vulnerabilties not to be shared publicly.
